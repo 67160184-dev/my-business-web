@@ -26,4 +26,9 @@ my-business-web
 
 # ลิงก์เข้าไปในแต่ละหน้า
 
--[หน้าแรก](index.html) -[เกี่ยวกับเรา](about.html) -[บริการ](services.html) -[ติดต่อเรา](contact.html)
+<ul>
+<li><a href="index.html">หน้าแรก</a></li>
+<li><a href="about.html">เกี่ยวกับเรา</a></li>
+<li><a href="services.html">บริการ</a></li>
+<li><a href="contact.html">ติดต่อเรา</a></li>
+</ul>
