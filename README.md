@@ -49,7 +49,7 @@ my-business-web/
 ## 3. หน้าบริการ
 
 ![services](<images/services update 1.png>)
-![alt text](<images/services update 2.png>)
+![services](<images/services update 2.png>)
 
 ## 4. หน้าติดต่อเรา
 
