@@ -39,7 +39,6 @@ my-business-web/
 ## 1. หน้าแรก
 
 ![index](<images/index update 1.png>)
-![index](<images/index update 2.png>)
 
 ## 2. หน้าเกี่ยวกับเรา
 
