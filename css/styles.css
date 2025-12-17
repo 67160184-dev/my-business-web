@@ -1,0 +1,237 @@
+/* ========================
+   RESET & DEFAULTS
+======================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ========================
+   TYPOGRAPHY
+======================== */
+h1 {
+  font-size: 4rem;
+  color: #df3939;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #d32623;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+p1 {
+  font-size: 1.5rem;
+  color: #b36661;
+  line-height: 1.7;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0f0f0f;
+}
+
+/* ========================
+   LAYOUT & CONTAINERS
+======================== */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.section {
+  margin: 3rem 0;
+}
+
+/* ========================
+   HEADER & NAVIGATION
+======================== */
+#header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #000000;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-menu li:first-child a {
+  font-weight: 700;
+}
+
+.nav-menu a:hover {
+  border-bottom: 2px solid #c62828;
+}
+
+/* ========================
+   HERO SECTION
+======================== */
+.hero {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.75),
+      rgba(247, 103, 103, 0.75)
+    ),
+    url("../images/hero-bg.jpg") center/cover no-repeat;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 5vw;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* ========================
+   BUTTONS
+======================== */
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.8rem;
+  background-color: #e53935;
+  color: #fff;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #8e0000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+/* ========================
+   CARDS & SERVICES
+======================== */
+.services {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 280px;
+  background-color: #fff;
+  padding: 1.5rem;
+  border: 1px solid #f1c0c0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(198, 40, 40, 0.25);
+}
+
+/* ========================
+   TEAM GRID (ABOUT PAGE)
+======================== */
+.team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.team-member {
+  text-align: center;
+}
+
+/* ========================
+   FORM STYLING
+======================== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #c62828;
+}
+
+/* ========================
+   FIXED ELEMENTS
+======================== */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #c62828;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 50%;
+  z-index: 50;
+}
+
+/* ========================
+   FOOTER
+======================== */
+#footer {
+  background-color: #d42a2a;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
