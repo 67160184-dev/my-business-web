@@ -6,76 +6,107 @@
     <title>Contact | Seed Book</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
-    <header>
-      <img
-        src="https://inwfile.com/s-dh/07ufdk.jpg"
-        alt="Se-ed Book Logo"
-        width="150"
-      />
-      <h1>SE-ED Book Center</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">หน้าแรก</a></li>
-          <li><a href="about.html">เกี่ยวกับเรา</a></li>
-          <li><a href="services.html">บริการ</a></li>
-          <li><a href="contact.html">ติดต่อเรา</a></li>
-        </ul>
-      </nav>
+    <header id="header">
+      <div class="navbar">
+        <img
+          src="https://inwfile.com/s-dh/07ufdk.jpg"
+          alt="Se-ed Book Logo"
+          width="120"
+        />
+
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="btn">หน้าแรก</a></li>
+            <li><a href="about.html" class="btn">เกี่ยวกับเรา</a></li>
+            <li><a href="services.html" class="btn">บริการ</a></li>
+            <li><a href="contact.html" class="btn">ติดต่อเรา</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <h1>ติดต่อเรา</h1>
-    <form action="/register" method="POST">
-      <fieldset>
-        <legend>ข้อมูลส่วนตัว</legend>
-        <label for="fname">ชื่อจริง:</label>
-        <input type="text" id="fname" name="firstname" required />
-        <label for="lname">นามสกุล:</label>
-        <input type="text" id="lname" name="lastname" required />
-        <br />
-        <label for="email">อีเมล:</label>
-        <input type="email" id="email" name="email" required />
-        <label for="number">เบอร์โทรศัพท์:</label>
-        <input type="number" id="number" name="number" required />
-        <br />
-        <fieldset>
-          <legend>เพศ:</legend>
-          <input type="radio" id="male" name="gender" value="male" />
-          <label for="male">ชาย</label>
-          <input type="radio" id="female" name="gender" value="female" />
-          <label for="female">หญิง</label>
-          <input type="radio" id="other" name="gender" value="other" />
-          <label for="other">อื่นๆ</label>
-        </fieldset>
-        <label for="message">ข้อมูลที่ต้องการติดต่อสอบถาม:</label>
-        <br />
-        <textarea id="message" name="message" rows="5" cols="40"></textarea>
-        <br />
-        <input type="checkbox" id="agree" name="agree" />
-        <label for="agree">ฉันยอมรับเงื่อนไขการใช้บริการ</label>
-      </fieldset>
-      <button type="submit">ส่งข้อมูล</button>
-      <button type="reset">ยกเลิก</button>
-    </form>
+    <main>
+      <section class="container section">
+        <h1>ติดต่อเรา</h1>
 
-    <h2>ที่อยู่ร้าน</h2>
-    <p>
-      7/222 ถ. บรมราชชนนี แขวงอรุณอมรินทร์ เขตบางกอกน้อย กรุงเทพมหานคร 10700
-    </p>
+        <form class="contact-form" action="#" method="POST">
+          <fieldset class="form-group">
+            <legend>ข้อมูลส่วนตัว</legend>
 
-    <h2>แผนที่</h2>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.84848565!2d100.4759!3d13.77813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e299841ce6b5c9%3A0xab114856a141ed6f!2sSE-ED%20Book%20Center!5e0!3m2!1sth!2sth!4v1700000000000"
-      width="400"
-      height="300"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-    ></iframe>
-  </body>
-    <footer>
+            <label for="fname">ชื่อจริง</label>
+            <input type="text" id="fname" name="firstname" required />
+
+            <label for="lname">นามสกุล</label>
+            <input type="text" id="lname" name="lastname" required />
+
+            <label for="email">อีเมล</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="number">เบอร์โทรศัพท์</label>
+            <input type="tel" id="number" name="number" required />
+          </fieldset>
+
+          <fieldset class="form-group">
+            <legend>เพศ</legend>
+            <label>
+              <input type="radio" name="gender" value="male" /> ชาย
+            </label>
+            <label>
+              <input type="radio" name="gender" value="female" /> หญิง
+            </label>
+            <label>
+              <input type="radio" name="gender" value="other" /> อื่น ๆ
+            </label>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <label for="message">ข้อมูลที่ต้องการติดต่อสอบถาม</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="พิมพ์ข้อความของคุณที่นี่"
+            ></textarea>
+
+            <label class="checkbox">
+              <input type="checkbox" name="agree" required />
+              ฉันยอมรับเงื่อนไขการใช้บริการ
+            </label>
+          </fieldset>
+
+          <div class="form-actions">
+            <button type="submit" class="btn">ส่งข้อมูล</button>
+            <button type="reset" class="btn btn-secondary">ยกเลิก</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="container section">
+        <h2>ที่อยู่ร้าน</h2>
+        <p>
+          7/222 ถ. บรมราชชนนี แขวงอรุณอมรินทร์ เขตบางกอกน้อย กรุงเทพมหานคร 10700
+        </p>
+      </section>
+
+      <section class="container section">
+        <h2>แผนที่</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.84848565!2d100.4759!3d13.77813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e299841ce6b5c9%3A0xab114856a141ed6f!2sSE-ED%20Book%20Center!5e0!3m2!1sth!2sth!4v1700000000000"
+          width="100%"
+          height="350"
+          style="border: 0"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </section>
+    </main>
+
+    <a href="#" class="back-to-top">↑</a>
+
+    <footer id="footer">
       <p>© 2025 Se-ed Book</p>
     </footer>
   </body>
 </html>
-
