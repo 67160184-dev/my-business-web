@@ -1,31 +1,40 @@
 # SE-ED Book Website
 
-เว็บไซต์ร้านหนังสือออนไลน์ พร้อมข้อมูลธุรกิจ บริการ และฟอร์มติดต่อ
+เว็บไซต์ร้านหนังสือออนไลน์ ชื่อ SE-ED Book Website พร้อมข้อมูลธุรกิจ ข้อมูลการให้บริการ และฟอร์มติดต่อ
 
 # โครงสร้างไฟล์
 
-my-business-web
+```
+my-business-web/
 ├── index.html
 ├── about.html
 ├── services.html
-├── contact.html
+├── contact_us.html
+├── css/
+│   └── styles.css
 ├── images/
-│ └── ...
+│   └── ...
 └── README.md
+```
 
 # รูปหน้าจอทั้งหมด
 
 1. หน้าแรก
-   ![index](images/index1.png)
+   ![index](<images/index update 1.png>)
+   ![index](<images/index update 2.png>)
    <br>
 2. หน้าเกี่ยวกับเรา
-   ![about](images/about1.png)
+   ![about](images/aboutupdate1.png)
+   ![about](<images/about update 2.png>)
    <br>
 3. หน้าบริการ
-   ![servicese](images/services1.png)
+   ![services](<images/services update 1.png>)
+   ![alt text](<images/services update 2.png>)
    <br>
 4. หน้าติดต่อเรา
-   ![contact](images/contact1.png)
+   ![contact](<images/contact update 1.png>)
+   ![contact](<images/contact update 2.png>)
+   ![contact](<images/contact update 3.png>)
 
 # ลิงก์เข้าไปในแต่ละหน้า
 
