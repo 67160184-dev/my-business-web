@@ -19,22 +19,29 @@ my-business-web/
 
 # รูปหน้าจอทั้งหมด
 
-1. หน้าแรก
-   ![index](<images/index update 1.png>)
-   ![index](<images/index update 2.png>)
-   <br>
-2. หน้าเกี่ยวกับเรา
-   ![about](images/aboutupdate1.png)
-   ![about](<images/about update 2.png>)
-   <br>
-3. หน้าบริการ
-   ![services](<images/services update 1.png>)
-   ![alt text](<images/services update 2.png>)
-   <br>
-4. หน้าติดต่อเรา
-   ![contact](<images/contact update 1.png>)
-   ![contact](<images/contact update 2.png>)
-   ![contact](<images/contact update 3.png>)
+# 1. หน้าแรก
+
+![index](<images/index update 1.png>)
+![index](<images/index update 2.png>)
+<br>
+
+# 2. หน้าเกี่ยวกับเรา
+
+![about](<images/about update 1.png>)
+![about](<images/about update 2.png>)
+<br>
+
+# 3. หน้าบริการ
+
+![services](<images/services update 1.png>)
+![alt text](<images/services update 2.png>)
+<br>
+
+# 4. หน้าติดต่อเรา
+
+![contact](<images/contact update 1.png>)
+![contact](<images/contact update 2.png>)
+![contact](<images/contact update 3.png>)
 
 # ลิงก์เข้าไปในแต่ละหน้า
 
